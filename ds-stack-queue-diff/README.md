@@ -26,5 +26,9 @@ Queue : you add the value in the last of an array  when you enqueue the value
               Stack.dequeue()     //[6,5]
               Stack.dequeue()    //[5]
 
+
+
              
          FIFO [FIRST IN FIRST OUT]
+
+ .................................................................................................................
