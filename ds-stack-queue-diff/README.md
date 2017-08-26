@@ -10,7 +10,7 @@ Stack : you add the value in the last of an array  when you push the value
     example : Stack.push (5)  //[5];
               Stack.push (6)  //[5,6]
               Stack.push (7)  //[5,6,7]
-              Stack.pop()     //[6,5]
+              Stack.pop()     //[5,6]
               Stack.pop()     //[5]
 
         LIFO [LAST IN FIRST OUT]
