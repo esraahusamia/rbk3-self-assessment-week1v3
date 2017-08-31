@@ -14,7 +14,7 @@ Stack : you add the value in the last of an array  when you push the value
               Stack.pop()     //[5]
 
         LIFO [LAST IN FIRST OUT]
-
+example : backe button in browser 
 ................................................................................................................
 
 Queue : you add the value in the last of an array  when you enqueue the value 
@@ -30,5 +30,5 @@ Queue : you add the value in the last of an array  when you enqueue the value
 
              
          FIFO [FIRST IN FIRST OUT]
-
+example : row in bank 
  .................................................................................................................

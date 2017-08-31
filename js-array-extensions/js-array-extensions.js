@@ -1,18 +1,23 @@
 // your code here
 
 
-function Array-Extention(array){
+function Array_Extention(array){
 
-	this.array = array
 
-	this.first(){
+	var arr= {}
+	arr.array = array
+	arr.first= first
+	arr.last = last 
 
-		return this.array[0]
-	}
+	return arr ;
+}
+function first(){
 
-	this.last(){
-		
-		return this.array[array.length-1]
+	return this.array[0]
+}
 
-	}
+function last (){
+	
+	return this.array[this.array.length-1]
+
 }
