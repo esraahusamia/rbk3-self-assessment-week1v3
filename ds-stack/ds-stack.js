@@ -1,22 +1,23 @@
 var Stack = function() {
 	
-	this._storage = [];
+	this._storage = []
 	
+};
 
-	Stack.prototype.add = function(value){
+Stack.prototype.add = function(value){
 
 	this._storage.push(value);
-        
-     };
-
-	Stack.prototype.remove = function() {
-
-		this._storage.pop();
-	};
 
 };
 
+Stack.prototype.remove = function() {
 
+	this._storage.pop();
+};
+
+
+
+var stack = new Stack ()
 // var Stack = function() {
 	
 // 	var stack = {}

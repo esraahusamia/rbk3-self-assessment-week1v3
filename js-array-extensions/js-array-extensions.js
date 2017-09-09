@@ -1,23 +1,41 @@
 // your code here
 
+var Array = function() {
+	
+	this.array = []
+	
+};
 
-function Array_Extention(array){
-
-
-	var arr= {}
-	arr.array = array
-	arr.first= first
-	arr.last = last 
-
-	return arr ;
-}
-function first(){
+Array.prototype.first = function(value){
 
 	return this.array[0]
-}
 
-function last (){
+};
+
+Array.prototype.last = function() {
+
+	return this.array[array.length-1];
+};
+
+
+
+// function Array_Extention(array){
+
+
+// 	var arr= {}
+// 	arr.array = array
+// 	arr.first= first
+// 	arr.last = last 
+
+// 	return arr ;
+// }
+// function first(){
+
+// 	return this.array[0]
+// }
+
+// function last (){
 	
-	return this.array[this.array.length-1]
+// 	return this.array[this.array.length-1]
 
-}
+// }
